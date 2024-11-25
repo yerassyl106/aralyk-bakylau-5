@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //task 1
+        let num1 = +prompt("enter first num")
+        let num2 = +prompt("enter second num")
+        let tanba = prompt("enter tanba")
+       
+        function kalculator(num1,num2,tanba) {
+            let result;
+
+            if (num1 !== Number || num2 !== Number) {
+                alert("durys san engiz")
+            }
+            if (tanba === "+") {
+                return result = num1 + num2
+            } else if (tanba === "-") {
+                return result = num1 - num2
+            } else if (tanba === "*") {
+                result = num1 * num2
+            } else if (tanba === "/") {
+                return result = num1 / num2
+            }
+
+            
+           return result
+        
+        console.log(kalculator(num1,num2,tanba));
+        
+//task 2
+        let tavar = prompt("enter tavar")
+        let baga = +prompt("enter baga")
+        let shtuk = +prompt("enter stuk")
+        
+        function  sauda(tavar,baga,shtuk) {
+         var man = shtuk * baga
+            if (man > 5000) {
+                return  man - 1000
+            } else if (man > 10000) {
+                return man - 2000
+            } else if (man > 20000) {
+                return man - 6000
+            }
+            
+        }
+        console.log(sauda(tavar,baga,shtuk));
+        
+
+
+
+//task 3
+        let san = +prompt("enter san")
+
+        function sandytap(san) {
+           let result;
+            if (san === 35) {
+                 alert("durys")
+            } else if (san<40 && san > 35) {
+                 alert("sal tomen")
+            } else if (san < 35 && san >= 30) {
+           alert("sal zhogary")
+            }   else if (san >= 40 ) {
+                alert("tomen")
+           } else if (san <= 30) {
+                alert("zhogary")
+        }
+    }
+        alert(sandytap(san))
+
+
+
+
+// //bonus task
+        let a = 15;
+        let b = 20;
+ 
+
+            a = 20
+            b = 15
+alert(a); 
+alert(b); 
+
+
+
+
+
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+          
